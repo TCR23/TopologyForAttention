@@ -1,9 +1,4 @@
-# Code/Methods to include
-#
-# Code to extract the data
-# Code to compute the noise correlation
-# Code to compute the topology (Betti Curves and Total Persistence)
-# Code to compute control theory
+# Methods for computing measures used in "Topological insights into the neural basis of flexible behavior"
 
 import numypy as np
 import scipy
