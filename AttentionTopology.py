@@ -37,7 +37,7 @@ def PersistenceHomologyCalcs(sc):
 
 def AdjacencyNormalization(mat):
     u,v = np.linalg.eig(mat)
-    newmat = mat/(1+np.max(np.abs(u)))
+    newmat = mat/(1+np.max(u))
     return newmat
 
 def ModalControllability(mat):
